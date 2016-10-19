@@ -9,10 +9,10 @@ module.exports = function(grunt) {
         browserify: {
             main: {
                 src: [],
-                dest: 'dist/dark-gravity-wave.js',
+                dest: 'dist/u256.js',
                 options: {
                     require: [
-                        './index.js:dgw'
+                        './index.js:u256'
                     ]
                 }
             }
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'dist/dark-gravity-wave.min.js': ['dark-gravity-wave.js']
+                    'dist/u256.min.js': ['u256.js']
                 }
             }
         }

@@ -1,7 +1,7 @@
 'use strict';
 
-var u256 = require('../');
-var expect    = require("chai").expect;
+var u256 = require('./');
+var expect = require("chai").expect;
 
 describe("u256 based arithmatic", function() {
   describe("creation", function() {

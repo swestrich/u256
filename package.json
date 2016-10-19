@@ -4,7 +4,7 @@
   "description": "unsigned 256 bit arithmetic",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test.js",
+    "test": "mocha test.js",
     "clean": "rm -rfv dist/*",
     "build": "grunt"
   },

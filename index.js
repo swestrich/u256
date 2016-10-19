@@ -113,6 +113,10 @@ function u256(a) {
   }
 }
 
+u256("1");
+
+
+
 
 u256.prototype.u16 = function() {
   var r16 = [];
@@ -315,4 +319,4 @@ u256.prototype.multiplyWithInteger = function(b) {
   return a;
 }
 
-module.exports.u256 = u256;
+module.exports = u256;
