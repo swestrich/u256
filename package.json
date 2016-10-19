@@ -1,0 +1,36 @@
+{
+  "name": "u256-js",
+  "version": "1.0.0",
+  "description": "unsigned 256 bit arithmetic",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "clean": "rm -rfv dist/*",
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quantumexplorer/x11-hash-js.git"
+  },
+  "keywords": [
+    "256",
+    "unsigned",
+    "u256"
+  ],
+  "author": "Samuel Westrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swestrich/u256/issues"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "browserify": "^13.0.1",
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "mocha": "^2.5.3",
+    "uglify": "^0.1.5"
+  }
+}
